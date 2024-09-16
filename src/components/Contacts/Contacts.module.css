@@ -1,0 +1,85 @@
+/* Файл: src/components/Contacts/Contacts.module.css */
+
+.contactsSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  background: linear-gradient(135deg, #ff8a00, #e52e71);
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.contactsInfo {
+  max-width: 500px;
+}
+
+.contactsInfo h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contactsInfo ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.contactsInfo ul li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactForm input,
+.contactForm textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contactForm button {
+  padding: 10px;
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contactForm button:hover {
+  background-color: #3700b3;
+}
+
+.socialLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socialLinks p {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.socialLinks a {
+  margin: 5px;
+}
+
+.socialLinks img {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease;
+}
+
+.socialLinks img:hover {
+  transform: scale(1.2);
+}
